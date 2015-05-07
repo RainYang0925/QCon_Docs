@@ -129,6 +129,13 @@ UI功能自动化
 从框架上来讲的话我们除了做自动化以外，我们也希望能够同时获取到性能数据，所以最终使用了`Agent`+`AnyProxy`的方式来获取数据，部分性能数据还是编写了辅助的Apk来获取，其余使用`Android SDK`自带的方式进行获取。
 ![Image text](https://raw.githubusercontent.com/monkeytest15/QCon_Docs/master/img/8.png)
 
+测试结束之后我们通过`json`的方式来拼装数据，从而用例纬度和时间纬度的数据都可以展现出来。
+![Image text](https://raw.githubusercontent.com/monkeytest15/QCon_Docs/master/img/10.png)
+
+![Image text](https://raw.githubusercontent.com/monkeytest15/QCon_Docs/master/img/11.png)
+
+
+
 总结
 ---
 移动互联网应用的技术可以说是日新月异，Hybrid模式肯定是一个过度。现在越来越多的人也开始关注应用的非功能性测试，详细可见我写的这份PPT：专项测试详细PPT可见：http://pan.baidu.com/s/1kTJzAmj。 
